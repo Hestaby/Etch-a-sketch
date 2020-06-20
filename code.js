@@ -8,7 +8,7 @@ for (let i = 0; i < 256; i++){
     container.appendChild(div);
 }
 function draw(element){
-    element.style.backgroundColor = `red`;
+    element.style.backgroundColor = `black`;
 }
 function setDraw(){
     const cells = document.querySelectorAll(`.grid`);
